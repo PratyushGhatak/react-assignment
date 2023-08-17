@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {user && <NasaImages />}
       <UsersList />
+      {user && <NasaImages />}
     </div>
   );
 }
